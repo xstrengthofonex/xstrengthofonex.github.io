@@ -153,18 +153,10 @@ h3 {
   text-align: center;
 }
 
-@media screen and (max-width: 600px) {
-  .nav {
-    display: none; 
-  }
-  
-  .col-6 {
-    width: 100%;
-  }
-}
 
 .responsive-img {
   width: 96%;
+  height: 260px;
   object-fit: cover;
   padding-left: 2%;
   padding-right: 2%;
