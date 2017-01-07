@@ -1,1 +1,1 @@
-# xstrengthofonex@github.io
+# xstrengthofonex.github.io
