@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
 
+
 body {
 	font-family: 'Raleway', sans-serif;
 	color: #333;
@@ -19,32 +20,50 @@ body {
 /* Wrapper */
 
 .wrapper {
-	width: 1000px;
-	max-width: 100%;
+	max-width: 1000px;
+	padding: 0 2%;
 	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .banner {
 	padding: 3em 0;
+	width: 100%;
+	flex-direction: column;
+	justify-content: center;
 }
 
-.logo {
-	float: left;
-	background: #34495e;
-	width: 75px;
-	height: 75px;
-	line-height: 75px;
-	text-align: center;
+.brand-image {
+	width: 50%;
+}
+
+.image {	
+	width: 100px;
+	height: 100px;
+	margin-top: 65px;
 	border-radius: 50%;
-	color: #fff;
-	font-weight: 700;
-	font-size: 1.1em;
 }
 
-.banner h1 {
+.brand{
+	margin: 0;
+	font-size: 1.2em;
+}
+
+.job-title {
+	width: 50%;
+}
+
+.job-title h1 {
 	text-align: right;
 	font-size: 3.5em;
 	float: right;
+}
+
+
+.row {
+	width: 100%;
+	margin-bottom: 2em;
 }
 
 .work {	
@@ -57,10 +76,26 @@ body {
 	border-radius: .35em;
 	height: 450px;
 	display: table;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
 .card-full {
 	width: 100%;	
+}
+
+.card-half {
+	width: 48.5%;
+	float: left;
+}
+
+.left {
+	margin-right: 1.5%;
+}
+
+.right {
+	margin-left: 1.5%;
 }
 
 .card-inner {
@@ -68,8 +103,43 @@ body {
 	vertical-align: middle;	
 	height: 100%;
 	padding: 1.5em 12%;
+	color: #fff;
+}
+
+.card-inner p {
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: 700;	
+}
+
+.card-inner h2 {
+	font-size: 3em;
+	margin: 0;
+}
+
+.pink{
+	background-color: rgba(159,69,82,0.7);
+	border-radius: .35em;
+}
+
+.green {
+	background-color: rgba(67,150,57,0.7);
+	border-radius: .35em;	
 }
 
 .purple {
-	background-color: #9b59b6;
+	background-color: rgba(106,38,178,0.7);
+	border-radius: .35em;	
+}
+
+.card-1 {
+	background-image: url(./img/coding.jpeg);
+}
+
+.card-2 {
+	background-image: url(./img/calculator.jpeg);
+}
+
+.card-3 {
+	background-image: url(./img/watch.jpg);
 }
