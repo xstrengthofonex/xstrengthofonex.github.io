@@ -129,6 +129,10 @@ hr {
 	margin: 0;
 }
 
+.tall {
+	height: 600px;
+}
+
 .pink{
 	background-color: rgba(159,69,82,0.7);
 	border-radius: .35em;
@@ -144,6 +148,11 @@ hr {
 	border-radius: .35em;	
 }
 
+.blue {
+	background-color: rgba(47,158,182,0.7);
+	border-radius: .35em;	
+}
+
 .card-1 {
 	background-image: url(./img/coding.jpeg);
 }
@@ -154,6 +163,10 @@ hr {
 
 .card-3 {
 	background-image: url(./img/watch.jpg);
+}
+
+.card-4 {
+	background-image: url(https://media.livecoding.tv/livestream_splashscreen/16/10/image_ZW3cnju.jpeg);
 }
 
 
@@ -173,6 +186,10 @@ hr {
 
     hr {
     	width: 100%;
+    }
+
+    .tall {
+    	height: 450px;
     }
 
 
