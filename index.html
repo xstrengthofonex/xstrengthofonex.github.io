@@ -2,8 +2,86 @@
 <html>
 <head>
 	<title>My Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="./src/css/style.css">
 </head>
 <body>
-	<h1>My Portfolio</h1>
+	<div class="navbar">
+		<div class="container">
+			<div class="brand col-6">
+				<a href="#"><img class="logo" src="./src/img/my-logo.png"></a>
+				<h1>PORTFOLIO</h1>
+			</div>
+			<div class="nav col-6">
+				<ul>
+					<li><a href="#">Projects</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+	  <div class="jumbotron">
+	        <div class="center">
+	          <img class="profile-img" src="https://lh3.googleusercontent.com/-6-81ppBNrks/VwaFMydALEI/AAAAAAAAAsk/tnDftOFs7xk6ePJJPCJVjwEznojIdu18QCEw/w140-h140-p/profile_pic.jpg" alt="My profile pic">
+	        </div>
+	        <h2>Full-stack developer / Python developer</h1>
+	        <hr>
+	        <p>Front-End Developer and UX/UI designer, with practical experience in project management, branding strategy, and creative direction; devoted to functional programming and information architecture.</p>
+	    </div>
+	  </div>
+	</div>
+	<div class="container">
+	  <div class="row" id="project-section">
+	    <div class="col-12">
+	      <h2>My Current Projects</h2>
+	    </div>
+	    <div class="col-6">
+	      <a class="project-link" href="https://github.com/xstrengthofonex/vilify" target="_blank"><img src="https://media.livecoding.tv/livestream_splashscreen/16/10/image_ZW3cnju.jpeg" class="responsive-img"></a>
+	      <div class="project-details">
+	        <h3>Vilify WSGI Framework</h3>
+	        <p>Vilify is mostly based on Ian Bicking's Another Do It Yourself Framework. It is a micro-framework that works well with MVC design.</p>
+	      </div>
+	    </div>
+	    <div class="col-6">
+	      <a href="http://codepen.io/xstrengthofonex/full/jVdPeG/" target="_blank"><img src="https://s23.postimg.org/rb0f06gff/quote.png" class="responsive-img"></a>
+	      <div class="project-details">
+	        <h3>Random Quote Grabber</h3>
+	        <p>Get random famous quotes with the click of a button and post them straight to Twitter.</p>
+	      </div>
+	    </div>
+	        <div class="col-6">
+	      <img src="https://media.livecoding.tv/livestream_splashscreen/16/10/image_ZW3cnju.jpeg" class="responsive-img">
+	      <div class="project-details">
+	        <h3>Vilify WSGI Framework</h3>
+	        <p>Vilify is mostly based on webapp2 and Ian Bicking's Another Do It Yourself Framework. It is a simple micro-framework with routing and templating.</p>
+	      </div>
+	    </div>
+	    <div class="col-6">
+	      <img src="https://media.livecoding.tv/livestream_splashscreen/16/10/image_ZW3cnju.jpeg" class="responsive-img">
+	      <div class="project-details">
+	        <h3>Vilify WSGI Framework</h3>
+	        <p>Vilify is mostly based on webapp2 and Ian Bicking's Another Do It Yourself Framework. It is a simple micro-framework with routing and templating.</p>
+	      </div>
+	    </div>
+	  </div>
+	  <hr>
+	  <div class="row" id="contact-section">
+	    <div class="col-12">
+	       <h2>Contact Me</h2>
+	    </div>
+	    <div class="col-6">
+	      <div class="form">
+	         <input type="text" placeholder="Name" name="name">
+	         <input type="email" placeholder="Email" name="email">
+	         <textarea name="message" placeholder="Message"></textarea>
+	         <button class="btn" type="submit">Submit</button>
+	      </div>
+	    </div>
+	    <div class="col-6">
+	      <p>Want to get in touch with me? Be it to request more info about myself or my experience, to ask for my resume, tips on how to solve your sudoku, random questions about the universe and the meaning of life... just feel free to drop me a line anytime.
+	        I promise to reply A.S.A.P.</p>
+	    </div> 
+	</div>
 </body>
 </html>
