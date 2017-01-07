@@ -36,19 +36,29 @@ body {
 
 .brand-image {
 	width: 50%;
+	text-align: left;
 }
 
 .image {	
 	width: 100px;
 	height: 100px;
-	margin-top: 65px;
+	margin-top: 60px;
 	border-radius: 50%;
 }
 
-.brand{
+.brand {
 	margin: 0;
 	font-size: 1.2em;
+	text-transform: uppercase;
 }
+
+hr {
+	background-color: #ddd;
+	border: 0;
+	height: 4px;
+	width: 200px;
+}
+
 
 .job-title {
 	width: 50%;
