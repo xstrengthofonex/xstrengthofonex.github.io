@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
 
 
+
 body {
 	font-family: 'Raleway', sans-serif;
 	color: #333;
@@ -27,6 +28,7 @@ body {
 	flex-wrap: wrap;
 }
 
+
 .banner {
 	padding: 3em 0;
 	width: 100%;
@@ -49,7 +51,7 @@ body {
 .brand {
 	margin: 0;
 	font-size: 1.2em;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 }
 
 hr {
@@ -76,7 +78,7 @@ hr {
 	margin-bottom: 2em;
 }
 
-.work {	
+#work {	
 	background-color: #333;
 	padding: 5em 0;
 }
@@ -84,8 +86,8 @@ hr {
 .card {
 	background-color: #fff;
 	border-radius: .35em;
-	height: 450px;
 	display: table;
+	height: 450px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -112,7 +114,7 @@ hr {
 	display: table-cell;
 	vertical-align: middle;	
 	height: 100%;
-	padding: 1.5em 12%;
+	padding: 1.5em 2%;
 	color: #fff;
 }
 
@@ -152,4 +154,34 @@ hr {
 
 .card-3 {
 	background-image: url(./img/watch.jpg);
+}
+
+
+@media only screen and (max-width: 700px) {
+    .card-half, .brand-image, .job-title {
+    	width: 100%;
+    }
+
+    .brand-image {
+    	text-align: center;
+    }
+
+    .job-title h1{
+   		float: none;
+   		text-align: center;
+    }
+
+    hr {
+    	width: 100%;
+    }
+
+
+    .left {
+    	margin: 0;
+    	margin-bottom: 2em;
+    }
+
+    .right {
+    	margin: 0;
+    }
 }
