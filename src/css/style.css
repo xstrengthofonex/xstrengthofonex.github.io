@@ -147,6 +147,10 @@ hr {
 	border-radius: .35em;	
 }
 
+.green:hover {
+	background-color: rgba(67,150,57,0.8);
+}
+
 .purple {
 	background-color: rgba(106,38,178,0.7);
 	border-radius: .35em;	
@@ -162,7 +166,7 @@ hr {
 }
 
 .card-2 {
-	background-image: url(./img/calculator.jpeg);
+	background-image: url(./img/cloudy.jpeg);
 }
 
 .card-3 {
