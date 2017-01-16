@@ -156,6 +156,10 @@ hr {
 	border-radius: .35em;	
 }
 
+.purple:hover {
+	background-color: rgba(106,38,178,0.8);
+}
+
 .blue {
 	background-color: rgba(47,158,182,0.7);
 	border-radius: .35em;	
@@ -170,7 +174,7 @@ hr {
 }
 
 .card-3 {
-	background-image: url(./img/watch.jpg);
+	background-image: url(./img/books.jpeg);
 }
 
 .card-4 {
