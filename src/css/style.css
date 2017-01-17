@@ -165,6 +165,10 @@ hr {
 	border-radius: .35em;	
 }
 
+.blue:hover {
+	background-color: rgba(47,158,182,0.8);	
+}
+
 .card-1 {
 	background-image: url(./img/typography.jpeg);
 }
@@ -178,7 +182,7 @@ hr {
 }
 
 .card-4 {
-	background-image: url(https://media.livecoding.tv/livestream_splashscreen/16/10/image_ZW3cnju.jpeg);
+	background-image: url(./img/broadcast.jpg);
 }
 
 
