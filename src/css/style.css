@@ -18,6 +18,15 @@ a {
 	text-decoration: none;
 }
 
+.section-title {
+	display: block;
+	color: #fff;
+	font-size: 36px;
+	margin: 0 auto;
+	font-weight: 700;
+	margin-bottom: 1em;
+}
+
 /* Wrapper */
 
 .wrapper {
@@ -46,12 +55,13 @@ a {
 	height: 100px;
 	margin-top: 60px;
 	border-radius: 50%;
+	opacity: 0.7;
 }
 
 .brand {
 	margin: 0;
 	font-size: 1.2em;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 }
 
 hr {
@@ -80,7 +90,7 @@ hr {
 
 #work {	
 	background-color: #333;
-	padding: 5em 0;
+	padding: 2em 0;
 }
 
 .card {
@@ -120,12 +130,13 @@ hr {
 
 .card-inner p {
 	font-size: 1.5em;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	font-weight: 700;	
 }
 
 .card-inner h2 {
 	font-size: 3em;
+	font-weight: lighter;
 	margin: 0;
 }
 
