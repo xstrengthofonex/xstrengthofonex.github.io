@@ -6,16 +6,23 @@
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Raleway:200,400,700" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="./src/css/style.css">
+	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </head>
 <body>
+	<section id="navbar">
+		<ul>
+			<li><a href="#work" class="nav-link">Projects</a></li> 
+			<li><a id="profile-link" class="nav-link" href="https://github.com/xstrengthofonex" target="_blank">Github</a></li>
+		</ul>
+	</section>
 	<section class="banner cf">
-		<div class="wrapper">
+		<div id="welcome-section" class="wrapper">
 			<div class="brand-image">
 				<img class="image" src="./src/img/profile_pic.jpg" alt="my profile image">
 				<hr align="left">
 				<p class="brand">Vincent Marcus White</p>
 			</div>
-			<div class="job-title">
+			<div id="job-title">
 				<h1>
 					Full-Stack.<br>
 					Web.<br>
@@ -25,11 +32,11 @@
 		</div>
 	</section>
 	<section id="work">
-		<div class="wrapper">
-			<div id="projects" class="section-title">
-				My Projects
-			</div>
-			<div class="row cf">
+		<div class="section-title">
+			My Projects
+		</div>
+		<div id="projects" class="wrapper">
+			<div class="project-tile row cf">
 				<a href="https://xstrengthofonex.github.io/random-quote-machine/">
 				<div class="card card-full card-1">
 					<div class="card-inner pink">
@@ -39,7 +46,7 @@
 				</div>
 				</a>
 			</div>
-			<div class="row cf">
+			<div class="project-tile row cf">
 				<a href="https://xstrengthofonex.github.io/local-weather/">
 				<div class="card card-half tall left card-2">
 					<div class="card-inner green">
